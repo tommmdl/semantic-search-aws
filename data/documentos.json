@@ -1,0 +1,10 @@
+[
+  {"id": 1, "titulo": "Introdução ao Amazon EC2", "texto": "O Amazon EC2 fornece capacidade computacional escalável na nuvem AWS. Permite criar e gerenciar instâncias virtuais com diferentes tipos de CPU, memória e armazenamento."},
+  {"id": 2, "titulo": "Amazon S3 para armazenamento de dados", "texto": "O Amazon S3 é um serviço de armazenamento de objetos altamente escalável. Ideal para guardar datasets de machine learning, backups e artefatos de modelos treinados."},
+  {"id": 3, "titulo": "MLflow para rastreamento de experimentos", "texto": "MLflow é uma plataforma open source para gerenciar o ciclo de vida de modelos de machine learning. Permite registrar métricas, parâmetros e artefatos de cada experimento."},
+  {"id": 4, "titulo": "Docker e containerização de modelos", "texto": "Docker permite empacotar modelos de machine learning em containers portáteis. Facilita o deploy consistente em diferentes ambientes, desde desenvolvimento até produção."},
+  {"id": 5, "titulo": "AWS Lambda para inferência serverless", "texto": "AWS Lambda executa código sem necessidade de gerenciar servidores. Pode ser usado para servir modelos leves de machine learning com baixa latência e custo por uso."},
+  {"id": 6, "titulo": "Monitoramento com CloudWatch", "texto": "Amazon CloudWatch coleta métricas e logs de serviços AWS. Em MLOps, é usado para monitorar drift de dados, latência de inferência e saúde dos pipelines de dados."},
+  {"id": 7, "titulo": "Pipelines de dados com Apache Airflow", "texto": "Apache Airflow orquestra pipelines de dados complexos usando DAGs. Amplamente usado em projetos de MLOps para automatizar ingestão, transformação e retreinamento de modelos."},
+  {"id": 8, "titulo": "Embeddings e representação vetorial de texto", "texto": "Embeddings são representações numéricas de texto em espaço vetorial. Modelos como BERT e Titan geram vetores densos que capturam significado semântico das palavras."}
+]

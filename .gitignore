@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# AWS — NUNCA suba credenciais!
+.aws/
+credentials
+*.pem
+*.key
+
+# Dados sensíveis
+*.csv
+*.parquet
+*.npy
+
+# IDE
+.vscode/
+.idea/
