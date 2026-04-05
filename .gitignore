@@ -20,6 +20,9 @@ credentials
 *.csv
 *.parquet
 *.npy
+artifacts/
+build/
+dist/
 
 # IDE
 .vscode/

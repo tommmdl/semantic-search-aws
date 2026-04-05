@@ -1,14 +1,12 @@
-"""Compatibility layer for previous imports."""
+"""Public API for the semantic search package."""
 
-from semantic_search import (
-    MotorBuscaSemantica,
+from .engine import MotorBuscaSemantica
+from .math_utils import norma_vetor, produto_escalar, similaridade_cosseno
+from .storage import (
     carregar_motor_arquivo,
     carregar_motor_s3,
-    norma_vetor,
-    produto_escalar,
     salvar_motor_arquivo,
     salvar_motor_s3,
-    similaridade_cosseno,
 )
 
 __all__ = [
